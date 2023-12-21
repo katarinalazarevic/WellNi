@@ -1,0 +1,49 @@
+[
+  {
+    "usluga": "Funkcionalni trening",
+    "termini": [
+      {
+        "dan": "Ponedeljak",
+        "sat": "12:00"
+      },
+      {
+        "dan": "Sreda",
+        "sat": "12:00"
+      },
+      {
+        "dan": "Petak",
+        "sat": "12:00"
+      }
+    ]
+  },
+  {
+    "usluga": "Grupni",
+    "termini": [
+    {
+      "dan": "Utorak",
+      "sat":"13:00"
+    },
+    {
+      "dan": "Sreda",
+      "sat": "12:00"
+    }
+  ]
+},
+{
+  "usluga": "Funkcionalni trening",
+  "termini": [
+    {
+      "dan": "Ponedeljak",
+      "sat": "12:00"
+    },
+    {
+      "dan": "Sreda",
+      "sat": "12:00"
+    },
+    {
+      "dan": "Petak",
+      "sat": "12:00"
+    }
+  ]
+}
+]

@@ -1,0 +1,101 @@
+.container-korisnik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+  }
+
+  .btn-vrati-na-pocetnu {
+    margin-top: 5px;
+    padding: 10px 20px;
+    font-family: 'Monaco', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c8a262;
+    border-radius: 7px;
+    border-color: #c8a262;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .container-korisnik{
+    width: 100%;
+    height: 200vh;
+    }
+  }
+  .desni-korisnik{
+    margin-right: 10px;
+  }
+  .levi-korisnik{
+    display: grid;
+    margin-right: 10px;
+    justify-items: center; 
+    margin-left: 10px;
+  }
+  .akcije{
+    display: flex;
+    
+  }
+  .container-korisnik h1 {
+    margin-bottom: 20px;
+    font-family: 'Monaco', serif;
+    color: #fff;
+    font-size: 70px;
+    
+  }
+  .container-korisnik p {
+    margin-bottom: 15px;
+    font-family: 'Monaco', serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    
+  }
+  .container-korisnik h4{
+    font-family: 'Monaco', serif;
+    font-size: 2vw;
+    color: #fff;
+  }
+  
+  
+  .container-korisnik button {
+    margin-top: 5px;
+    padding: 7px;
+    font-family: 'Monaco', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c8a262;
+    border-radius: 7px;
+    border-color: #c8a262;
+  }
+
+  .lista-termina{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  .za-bar{
+    background-color: #e9d199;
+    margin-top: 15px;
+
+  }
+  .div-vrati-spec-ponude{
+    
+   background-color: #b9dae785;
+
+  }
+  .terminiK{
+    display:grid;
+    background-color: #b9dae799;
+    
+  }
+  

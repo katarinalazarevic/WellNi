@@ -1,0 +1,123 @@
+
+.container{
+    font-family: 'Monaco', serif;
+}
+.opis{
+    margin: 10px;
+    font-family: 'Monaco', serif;
+}
+h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 15px;
+    font-family: 'Monaco', serif;
+}
+.o-nama{
+    font-family: 'Monaco', serif;
+    font-size: 50px;
+}
+.h1 {
+    background-color: #e9d199;
+    font-size: 25px;
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #381c02; */
+    color: #381c02;
+    text-align: center;
+    font-family: 'Monaco', serif;
+}
+
+.img3 {
+    height: auto; 
+    max-width: 100%;
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-left: 3px solid #381c02;
+    
+  }
+
+.treci-deo, .drugi-deo, .prvi-deo{
+    background-color: #e9d199;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    max-width: 100%;
+    border: 3px solid #381c02;
+    font-family: 'Monaco', serif;
+    color:#381c02;
+}
+.img4 {
+    height: auto; 
+    max-width: 100%;
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+ .img6 {
+    height: auto; 
+    max-width: 100%;
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-left: 3px solid #381c02;
+
+    } 
+.container-krug{
+    display: flex;
+    height: 400px;
+    background-color: #e9d199;
+    justify-content: center;
+}
+
+.krug1:hover,
+.krug2:hover{
+   
+    transform: scale(1.08); /* povećajte veličinu po želji */
+}
+.krug1{
+    background-color: #fbd8b5;
+    border-radius: 50%;
+    width: 43%;
+    margin: 25px;
+    border: 5px dashed   #9a7440 ;
+
+
+}
+.krug2{
+    background-color: #fce5cd;
+    border-radius: 50%;
+    width: 43%;
+    margin: 25px;
+    border: 5px dashed  #9a7440 ;
+}
+
+
+.krug1 p,
+.krug2 p {
+  display: grid;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+  font-size: 17px; /* Prilagodite veličinu fonta po potrebi */
+  overflow: hidden; /* Sakriva višak teksta */
+  text-overflow: ellipsis; 
+  text-align: center;/* Dodaje elipsu (...) za skriveni tekst */
+  align-content: center;
+  padding: 20px;
+}
+
+.krug1 h1, .krug2 h1{
+    margin-bottom: 15px;
+    font-size: 2vw;
+     font-family: 'Copperplate', 'Papyrus', 'fantasy'; 
+
+    
+}
+body {
+    overflow-x: hidden;
+    height: 100%;
+}

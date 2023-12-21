@@ -1,0 +1,65 @@
+[
+  {
+    "ocena": 2,
+    "komentar": "Ok",
+    "datum": "2023-04-11T00:00:00",
+    "korisnik": "Katarina",
+    "za": "Boris"
+    
+  },
+    {
+        "ocena": 5,
+        "komentar": "Ok",
+        "datum": "2023-03-11T00:00:00",
+        "korisnik": "Katarina",
+        "za": "Boris"
+        
+      },
+      {
+        "ocena": 2,
+        "komentar": "Ok",
+        "datum": "2023-03-11T00:00:00",
+        "korisnik": "Katarina",
+        "za": "Boris"
+        
+      },
+      {
+        "ocena": 4,
+        "komentar": "Posetila sam nedavno Spa centar i moram reći da sam potpuno oduševljena iskustvom. Sve, od početka do kraja, bilo je besprekorno organizovano i pružilo mi je nezaboravno opuštajuće iskustvo.",
+        "datum": "2023-03-11T00:00:00",
+        "korisnik": "Katarina",
+        "za": "Boris"
+        
+      },
+      {
+        "ocena": 5,
+        "komentar": "Sve preporuke",
+        "datum": "2023-05-11T00:00:00",
+        "korisnik": "Petra",
+        "za": "Funkcionalni trening"
+      },
+      {
+        "ocena": 3,
+        "komentar": "Onako",
+        "datum": "2023-05-11T00:00:00",
+        "korisnik": "Petra",
+        "za": "CrossFit"
+      },
+
+      {
+        "ocena": 2,
+        "komentar": "Nažalost, wellness centar nije ispunio moja očekivanja. Spa centar je bio prenatrpan i bučan, a terapeuti su bili neprofesionalni. Teretana je bila zagušena i sprave su bile u lošem stanju.",
+        "datum": "2023-05-11T00:00:00",
+        "korisnik": "Tijana",
+        "za": "Mara"
+      },
+      {
+        "ocena": 5,
+        "komentar": "Wellness centar pruža izuzetno opuštajuće iskustvo. Spa centar ima predivan ambijent i profesionalno osoblje koje nudi razne tretmane za opuštanje i obnovu. Teretana je dobro opremljena i ima raznovrsne sprave za vežbanje.",
+        "datum": "2023-5-26T00:00:00",
+        "korisnik": "Tijana",
+        "za": "Relax masaza"
+      }
+
+      
+]

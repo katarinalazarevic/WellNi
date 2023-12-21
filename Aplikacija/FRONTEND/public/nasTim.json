@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "ime": "Boris",
+      "prezime": "Novkovic",
+      "zanimanje": "Trener",
+      "username": "BorisTrener",
+      "role": "Zaposleni",
+      "email": "boris.novkovic@zaposleni.com",
+      "passwordHash": "$2a$11$h6tL5Ja9DvQK5hZT/SXDqujlRNbcbuIOaE.C6VNQThMdTCRJZbzwy"
+    },
+    {
+      "id": 2,
+      "ime": "Mara",
+      "prezime": "Peric",
+      "zanimanje": "Trener",
+      "username": "MaraTrener",
+      "role": "Zaposleni",
+      "email": "mara.peric@zaposleni.com",
+      "passwordHash": "$2a$11$W.jYgMt0zoZWKaa8nEO3jew5k6nTwNzKrUAR3rSe7/M22L2SlOe8a"
+    },
+    {
+      "id": 3,
+      "ime": "Marko",
+      "prezime": "Takic",
+      "zanimanje": "Trener",
+      "username": "MarkoTrener",
+      "role": "Zaposleni",
+      "email": "marko.takic@zaposleni.com",
+      "passwordHash": "$2a$11$JMtQ5M9tvE/V2KKIin4touYNIpWkibC9poZc4kkeSbOBxmEpIOg4C"
+    },
+    {
+      "id": 2002,
+      "ime": "Jelena",
+      "prezime": "Jovic",
+      "zanimanje": "Fizioterapeut",
+      "username": "JelenaSpa",
+      "role": "Zaposleni",
+      "email": "jelena.jovic@zaposleni.com",
+      "passwordHash": "$2a$11$qOsBSEPChdjx2sYjqkLRJeutuImoe24CI0NHv2GCmjSlMbfgqXCK."
+    },
+    {
+      "id": 2003,
+      "ime": "Zorica",
+      "prezime": "Mitic",
+      "zanimanje": "Fizioterapeut",
+      "username": "ZoricaSpa",
+      "role": "Zaposleni",
+      "email": "zorica.mitic@zaposleni.com",
+      "passwordHash": "$2a$11$4VzwltiIKu0lX/9pklPMPeeZr32rGZ62XbZEtpL8qMI8vMYvwzQhi"
+    }
+  ]

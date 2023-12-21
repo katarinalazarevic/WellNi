@@ -1,0 +1,60 @@
+  .container-recenzije{
+    width: auto;
+    height: auto;
+    font-family: 'Monaco', serif;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: #e9d199;
+  }
+  .naslov-recenzije
+  {
+    color:#381c02;
+    padding: 15px;
+    font-weight:bold;
+    font-family: 'Monaco', serif;
+    text-align: center;
+    font-size: 40px;
+  }
+  .recenzije-div{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+
+    font-size: 17px ;    
+    }
+  .container-recenzije div {
+    margin: 3px;
+    color:#381c02;
+    margin-left: 15px;
+
+  }
+  .recenzija {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    border: 7px outset #c8a262;
+    }
+
+    .container-recenzije button {
+    
+      padding: 3px;
+      border-color: #c8a262;
+      cursor: pointer;
+      font-family: 'Monaco', serif; 
+      font-size: 17px;
+      background-color: #c8a262;
+      border-radius: 3px;
+      margin-top: 5px;
+      font-weight: bold;
+      color: #381c02;
+      margin-left: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-width: thick;
+      
+    }
+    /* .dugmici{
+      flex-direction: column;
+      display: flex;
+    } */

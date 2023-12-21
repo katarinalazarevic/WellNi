@@ -1,0 +1,16 @@
+[
+    {
+        "ocena": 5,
+        "komentar": "Ok",
+        "datum": "2023-05-11T00:00:00",
+        "korisnik": "Katarina",
+        "za": "Boris"
+      },
+      {
+        "ocena": 5,
+        "komentar": "Sve preporuke",
+        "datum": "2023-05-11T00:00:00",
+        "korisnik": "Katarina",
+        "za": "Funkcionalni trening"
+      }
+]

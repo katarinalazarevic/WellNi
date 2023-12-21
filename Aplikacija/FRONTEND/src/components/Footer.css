@@ -1,0 +1,103 @@
+.main-footer {
+  color: white;
+  background-color: #9a7440;
+  padding-top: 20px;
+  /* position: relative; */
+  bottom: 0;
+  width: 100%;
+  font-family: 'Monaco', serif;
+
+}
+
+.container-kontakt {
+  width: 100%;
+  display: inline-block; 
+  font-family: 'Monaco', serif;
+}
+
+div {
+  display: inline-block;
+  font-family: 'Monaco', serif;
+}
+
+.col1,
+.col2 {
+  margin: 30px;
+  font-family: 'Monaco', serif;
+  padding: 5px;
+}
+
+.row {
+  font-family: 'Monaco', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Dodajte ovaj stil za prikazivanje elemenata u više redova na manjim ekranima */
+}
+
+h1 {
+  padding: 3px;
+  font-family: 'Monaco', serif;
+}
+
+h4 {
+  padding: 3px;
+  font-family: 'Monaco', serif;
+}
+
+.li-futer {
+  list-style-type: square;
+  font-family: 'Monaco', serif;
+  padding: 3px;
+}
+
+.col-sm {
+  font-family: 'Monaco', serif;
+}
+
+@media (max-width: 768px) {
+  /* Stilovi za ekrane širine do 768 piksela */
+  .row {
+    margin-left: 0;
+  }
+  .container-kontakt {
+    align-items: flex-start; /* Promijenite ovaj stil na flex-start kako bi se sadržaj pomaknuo ulijevo */
+  }
+
+  .col1,
+  .col2 {
+    margin: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Stilovi za ekrane širine do 480 piksela */
+  .row {
+    margin-left: 0;
+  }
+
+  .col1,
+  .col2 {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  .li-futer {
+    list-style-type: disc;
+  }
+}

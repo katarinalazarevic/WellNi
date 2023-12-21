@@ -1,0 +1,131 @@
+.container-administrator {
+    display:grid;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 20px;
+    
+  }
+  @media (max-width: 768px) {
+  .container-administrator{
+    width: 100%;
+
+  }
+}
+  .vrati-polja{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+     */
+    
+  }
+  .prva-polja{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+.button-administrator
+{
+    width: 150px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Monaco', serif;
+    font-size: 18px;
+    background-color: #c8a262;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+    border-color: #c8a262;
+}
+
+.container-administrator label{
+font-size: 15px;
+display: flex;
+  flex-direction: column;
+}
+.container-administrator input{
+  width: 150px;
+  height: 25px;
+}
+
+.potvrda-dugme{
+  display: block;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Monaco', serif;
+  background-color: #634425;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 50px;
+}
+.sesija-admin{
+  border: 2px solid rgb(100, 96, 96);
+  border-radius: 5px;
+  text-align: center;
+  width:max-content;
+  padding: 15px;
+  height: 100%;
+}
+
+
+.vrati-usluge,
+.vrati-zaposlene,
+.vrati-termine,
+.vrati-zakazivanja,
+.vrati-specijalne-ponude-admin,
+.vrati-zaposlene-i-usluge {
+  
+  width: 100%;
+  border-collapse: collapse;
+  table-layout:unset; /* Dodato za podešavanje širine kolona */
+}
+
+
+.vrati-usluge th,
+.vrati-usluge td,
+.vrati-zaposlene th,
+.vrati-zaposlene td,
+.vrati-termine th,
+.vrati-termine td,
+.vrati-zakazivanja th,
+.vrati-zakazivanja td,
+.vrati-specijalne-ponude-admin th,
+.vrati-specijalne-ponude-admin td,
+.vrati-zaposlene-i-usluge th,
+.vrati-zaposlene-i-usluge td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  word-break:keep-all; /* Dodato za prelamanje teksta */
+}
+
+.vrati-usluge th,
+.vrati-zaposlene th,
+.vrati-termine th,
+.vrati-zakazivanja th,
+.vrati-specijalne-ponude-admin th,
+.vrati-zaposlene-i-usluge th {
+  background-color: #f2f2f2;
+}
+
+.vrati-usluge tbody tr:hover,
+.vrati-zaposlene tbody tr:hover,
+.vrati-termine tbody tr:hover,
+.vrati-zakazivanja tbody tr:hover,
+.vrati-specijalne-ponude-admin tbody tr:hover,
+.vrati-zaposlene-i-usluge tbody tr:hover{
+  background-color: #eaeaea;
+}
+
+
+

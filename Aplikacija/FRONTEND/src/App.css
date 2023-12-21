@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.home,
+.teretana,
+.spa,
+.recenzije,
+.kontakt,
+.nas-tim,
+.prijavi-se,
+.administrator,
+.registracija {
+  display: flex;
+  height:max-content;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+}
+
+.content-wrap{
+  flex:1;
+}

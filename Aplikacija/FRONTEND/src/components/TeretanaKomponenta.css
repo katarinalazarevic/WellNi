@@ -1,0 +1,213 @@
+.container-gym{
+
+    font-family: 'Monaco', serif;
+    background-color: #f5f5f5;
+    
+    
+  }
+.sadrzaj-teretane h1{
+  text-align: center;
+  font-size: 40px;
+  border: 8px inset #c8a262;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+  .container-slikagym{
+
+    background: url('/images/naslovnagym.jpg') center center/cover no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .tabelaTeretana {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  .tabelaTeretana th,
+  .tabelaTeretana td {
+    font-size: large;
+    padding: 8px;
+    text-align: center;
+    border-top: 2px solid #381c02;
+    border-bottom:2px solid #381c02;
+  }
+  
+  .tabelaTeretana th {
+    background-color: #fce5cd;
+    font-weight: bold;
+  }
+  .tabelaTeretana tbody tr:hover{
+    background-color: #fce5cd;
+  }
+
+
+  
+  .tekst-prekogym{
+  color: #F9F4BA;
+  font-weight: bolder;
+  font-size: 100px;
+  margin-top:250px;
+  }
+
+
+  .slikagym-div{
+  width: 100%;
+
+
+  }
+.podtekstgym{
+  text-align: center;
+  color: #F9F4BA;
+  font-family: 'Monaco', serif;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.container-tekstgym{
+/* background-color: #c8a262; */
+
+  width: 50%;
+  text-align:justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 20px;
+  color:#381c02;
+  text-indent: 2em;
+
+
+}
+.oteretani{
+  /* padding: 20px; */
+  margin-bottom: 20px;
+  color:#381c02;
+  text-align: center;
+  font-size: 40px;
+}
+.teretana{
+  width: 30%;
+  height: 30%;
+ 
+}
+.teretana1{
+  width: 30%;
+  height: 30%;
+  /* margin-left: 40px; */
+ 
+}
+.velikigym{
+  background-color: #e9d199;
+  display: flex;
+  padding: 20px;
+width: 100%; 
+ justify-content: center;
+ align-items: center;
+
+}
+
+.teretanaUsluge
+{
+  border: 9px inset #381c02;
+  padding: 7px;
+  font-size: 38px;
+  
+}
+
+
+.mojeUslugeTeretana
+{
+   background-color: #e9d199;
+  /* display: flex; */
+  font-size: 15px;
+  justify-content: center;
+ align-items: center; 
+ border: 2px solid #e9d199;
+ 
+ 
+}
+.divNaDnuTeretana
+{
+  background-color: #e9d199;
+  justify-content: left;
+    align-items: left;
+    font-style: oblique;
+}
+.teretanaNaDnu
+{
+  text-align: center;
+  color: #F9F4BA;
+  font-family: 'Monaco', serif;
+  font-weight: bold;
+  font-size: 30px;
+  border: 9px inset #381c02;
+  width:30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.opisteretana1
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.opisteretana2
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.opisteretana3
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.opisteretana4
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.teretanaslika
+{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+.dugmeTeretana
+{
+  margin-left: 5px;
+   margin-bottom: 10px;
+  padding: 7px;
+   border: 2px solid #381c02; 
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bold;
+   color:#381c02; 
+  background-color: #fce5cd;
+  align-items: center;
+  justify-content: center;  
+  font-family: 'Monaco', serif;
+}
+
+.sadrzaj-teretane{
+  background-color: #e9d199;
+}
+
+.opis-gym{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+

@@ -1,0 +1,42 @@
+[
+    {
+      "id": 4,
+      "naziv": "Relax masaza",
+      "cena": 1300,
+      "tip": "Spa",
+      "maxKapacitet": 1,
+      "duzinaTrajanja": 45
+    },
+    {
+      "id": 5,
+      "naziv": "Sportska masaza",
+      "cena": 1500,
+      "tip": "Spa",
+      "maxKapacitet": 1,
+      "duzinaTrajanja": 45
+    },
+    {
+      "id": 6,
+      "naziv": "Masaza vulkanskim kamenjem",
+      "cena": 2000,
+      "tip": "Spa",
+      "maxKapacitet": 1,
+      "duzinaTrajanja": 45
+    },
+    {
+      "id": 7,
+      "naziv": "Ayurveda",
+      "cena": 2500,
+      "tip": "Spa",
+      "maxKapacitet": 1,
+      "duzinaTrajanja": 10
+    },
+    {
+      "id": 8,
+      "naziv": "Kraljevska masaza",
+      "cena": 1800,
+      "tip": "Spa",
+      "maxKapacitet": 1,
+      "duzinaTrajanja": 30
+    }
+  ]

@@ -1,0 +1,266 @@
+.container-spa{
+
+    font-family: 'Monaco', serif;
+    background-color: #f5f5f5;
+    position: relative;
+    
+     
+    
+  }
+
+  .container-slikaspa{
+    background: url('/images/naslovna spa.jpg') center center/cover no-repeat; 
+    object-fit: contain;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  tr{
+    border:1px solid black;
+    text-align: center;
+    border: none;
+    margin-bottom: 1px;
+    padding: 3px;
+    
+    /* width: 100%; */
+  }
+
+  .tr-uslugeSpa
+  {
+    -ms-flex-align: center ;
+    display: block;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  border: none;
+  margin-bottom: 1px;
+  }
+  .tabelaSpa{
+    padding: 50px;
+   
+    text-align: center;
+    color:#381c02;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+  }
+
+  .naziv-uslugeSpa
+  {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  }
+
+  .cenaSpa
+  {
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+
+  }
+
+  .trajanjeSpa
+  {
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  }
+
+ .naslovnaspa{
+
+    width: 100%;
+    height: auto;
+  } 
+  .tekst-prekospa{
+  color: #F9F4BA;
+  font-weight: bolder;
+  font-size: 100px;
+  margin-top:250px;
+  }
+
+
+.slikaspa-div{
+width: 100%;
+
+
+}
+.podtekst{
+  text-align: center;
+  color: #F9F4BA;
+  font-family: 'Monaco', serif;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.container-tekstspa{
+/* background-color: #c8a262; */
+
+width: 50%;
+text-align:justify;
+padding-left: 30px;
+line-height: 20px;
+color:#381c02;
+text-indent: 2em;
+
+
+}
+.benefiti{
+  padding: 20px;
+  color:#381c02;
+  text-align: center;
+  font-size: 45px;
+}
+.spa2{
+  width: 30%;
+  height: 30%;
+
+}
+.spa4{
+  width: 30%;
+  height: 30%;
+  margin-left: 40px;
+}
+.velikispa{
+  background-color: #e9d199;
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+ justify-content: center;
+ align-items: center;
+}
+
+.spaUsluge
+{
+  border: 9px inset #381c02;
+  padding: 7px;
+  font-size: 38px;
+  
+  
+}
+
+.divNaDnuSpa
+{
+  background-color: #e9d199;
+  justify-content: left;
+    align-items: left;
+    font-style: oblique;
+    margin: 0 auto;
+    
+}
+
+.spaNaDnu
+{
+  text-align: center;
+  color: #F9F4BA;
+  font-family: 'Monaco', serif;
+  font-weight: bold;
+  font-size: 30px;
+  border: 9px inset #381c02;
+  width:30%;
+  /* padding: 50px; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  
+}
+
+.opisspa1
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.opisspa2
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.opisspa3
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.opisspa4
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.spaslika
+{
+  
+  
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  
+}
+
+.dugmeSpa
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-color: #381c02;
+  cursor: pointer;
+  font-family: 'Monaco', serif;
+  font-size:  0.8vw;
+  background-color: #bf964f;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #fff;
+  border-color: #c8a262;
+  /* border-width:thick; */
+ margin-left:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sadrzaj-spa{
+  background-color: #e9d199;
+}
+.opis-spa{
+  font-size: 17px;
+}
+.mojeUslugeSpa{
+  background-color: #e9d199;
+  /* display: flex; */
+  font-size: 15px;
+  justify-content: center;
+ align-items: center; 
+ border: 2px solid #e9d199;
+}
+
+.tabelaSpa {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+.tabelaSpa th,
+.tabelaSpa td {
+  font-size: large;
+  padding: 8px;
+  text-align: center;
+  border-top: 2px solid #381c02;
+  border-bottom:2px solid #381c02;
+}
+
+.tabelaSpa th {
+  background-color: #fce5cd;
+  font-weight: bold;
+}
+.tabelaSpa tbody tr:hover{
+  background-color: #fce5cd;
+}

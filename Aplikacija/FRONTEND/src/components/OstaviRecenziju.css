@@ -1,0 +1,74 @@
+.ostavi-recenziju {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .ostavi-recenziju{
+    width: 100%;
+    height: 200vh;
+    }
+  }
+  
+  .ostavi-recenziju h1 {
+    margin-bottom: 20px;
+    font-family: 'Monaco', serif;
+    color: #fff;
+    font-size: 60px;
+    
+  }
+  
+  .ostavi-recenziju form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  .ostavi-recenziju form div {
+    margin-bottom: 10px;
+  }
+  
+  .ostavi-recenziju label {
+    font-weight: bold;
+    font-family: 'Monaco', serif;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .ostavi-recenziju input,
+  .ostavi-recenziju textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  .input-ocena{
+    width: 50px;
+  }
+  .textarea-komentar{
+    width: 300px;
+    height: 70px;
+  }
+  
+  .ostavi-recenziju button {
+    width: 150px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Monaco', serif;
+    font-size: 18px;
+    background-color: #c8a262;
+    border-radius: 7px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #fff;
+    
+  }
+
+
+
+  
+
+
